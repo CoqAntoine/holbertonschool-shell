@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ls -a $PWD $PPID /boot
+cd ls -a $PWD $PWD/.. /boot
