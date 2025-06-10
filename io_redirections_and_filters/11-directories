@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d,f ! -name '.' ! -name '..' | wc -l
+find . -type d,f -mindepth 1 | wc -l
